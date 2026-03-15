@@ -108,12 +108,13 @@ export const BizyAirNode = ({ node, updateNode, inputImages = [], isInputConnect
   // Dynamic state for parameters
   const [resolution, setResolution] = useState(node.data?.resolution || '1K');
   const [aspectRatio, setAspectRatio] = useState(node.data?.aspectRatio || '1:1');
+  const [duration, setDuration] = useState(node.data?.duration || 10);
 
   // Sync state to node.data (useful for saved workflows)
   useEffect(() => {
-    updateNode(node.id, { selectedAppId, prompt, resolution, aspectRatio });
+    updateNode(node.id, { selectedAppId, prompt, resolution, aspectRatio, duration });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedAppId, prompt, resolution, aspectRatio, node.id]);
+  }, [selectedAppId, prompt, resolution, aspectRatio, duration, node.id]);
 
   // Handle external run trigger
   useEffect(() => {
@@ -164,6 +165,7 @@ export const BizyAirNode = ({ node, updateNode, inputImages = [], isInputConnect
         prompt: actualPrompt,
         resolution,
         aspect_ratio: aspectRatio,
+        duration,
         image_1: inputImages[0]?.base64 || inputImages[0]?.file,
         image_2: inputImages[1]?.base64 || inputImages[1]?.file,
         image_3: inputImages[2]?.base64 || inputImages[2]?.file,
@@ -371,6 +373,12 @@ export const BizyAirNode = ({ node, updateNode, inputImages = [], isInputConnect
               <ParameterDropdown
                 value={resolution} options={['1K', '2K', '4K', 'auto']} onChange={setResolution}
                 isOpen={openMenu === 'res'} onToggle={o => setOpenMenu(o ? 'res' : null)}
+              />
+            )}
+            {currentApp.parameters.some(p => p.source === 'duration') && (
+              <ParameterDropdown
+                value={duration} options={[5, 10, 15, 20, 30]} onChange={setDuration}
+                isOpen={openMenu === 'dur'} onToggle={o => setOpenMenu(o ? 'dur' : null)}
               />
             )}
           </div>

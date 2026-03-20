@@ -32,7 +32,7 @@ npm install
 MindCanvas needs to connect to cloud AI services to function. Follow these steps:
 
 1. **Get your Keys**:
-   - **BizyAir**: Register at [BizyAir Official](https://api.bizyair.cn) to get your API Key.
+   - **BizyAir**: Register at [BizyAir Official](https://bizyair.cn) to get your API Key.
    - **SiliconFlow**: Get your key at [SiliconFlow](https://cloud.siliconflow.cn/i/IvfkhvET).
    - **ModelScope**: Get your key at [ModelScope](https://www.modelscope.cn/).
    - **Aliyun**: Get your key at [Aliyun Bailian](https://bailian.console.aliyun.com/).

